@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "面试题 17.26. 稀疏相�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "面试题 17.18. 最短超串", "面试题 17.18. 最短超串\面试题 17.18. 最短超串.vcxproj", "{724A0334-8B3F-4910-9EB4-28D767A2379F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "面试题 08.06. 汉诺塔问题", "面试题 08.06. 汉诺塔问题\面试题 08.06. 汉诺塔问题.vcxproj", "{4A0F7C9D-C02A-4EA5-955C-DDAB4FAA1A96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "面试题 01.01. 判定字符是否唯一", "面试题 01.01. 判定字符是否唯一\面试题 01.01. 判定字符是否唯一.vcxproj", "{B9F0167C-35C0-433F-A3AB-57C5480435C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +35,22 @@ Global
 		{724A0334-8B3F-4910-9EB4-28D767A2379F}.Release|x64.Build.0 = Release|x64
 		{724A0334-8B3F-4910-9EB4-28D767A2379F}.Release|x86.ActiveCfg = Release|Win32
 		{724A0334-8B3F-4910-9EB4-28D767A2379F}.Release|x86.Build.0 = Release|Win32
+		{4A0F7C9D-C02A-4EA5-955C-DDAB4FAA1A96}.Debug|x64.ActiveCfg = Debug|x64
+		{4A0F7C9D-C02A-4EA5-955C-DDAB4FAA1A96}.Debug|x64.Build.0 = Debug|x64
+		{4A0F7C9D-C02A-4EA5-955C-DDAB4FAA1A96}.Debug|x86.ActiveCfg = Debug|Win32
+		{4A0F7C9D-C02A-4EA5-955C-DDAB4FAA1A96}.Debug|x86.Build.0 = Debug|Win32
+		{4A0F7C9D-C02A-4EA5-955C-DDAB4FAA1A96}.Release|x64.ActiveCfg = Release|x64
+		{4A0F7C9D-C02A-4EA5-955C-DDAB4FAA1A96}.Release|x64.Build.0 = Release|x64
+		{4A0F7C9D-C02A-4EA5-955C-DDAB4FAA1A96}.Release|x86.ActiveCfg = Release|Win32
+		{4A0F7C9D-C02A-4EA5-955C-DDAB4FAA1A96}.Release|x86.Build.0 = Release|Win32
+		{B9F0167C-35C0-433F-A3AB-57C5480435C7}.Debug|x64.ActiveCfg = Debug|x64
+		{B9F0167C-35C0-433F-A3AB-57C5480435C7}.Debug|x64.Build.0 = Debug|x64
+		{B9F0167C-35C0-433F-A3AB-57C5480435C7}.Debug|x86.ActiveCfg = Debug|Win32
+		{B9F0167C-35C0-433F-A3AB-57C5480435C7}.Debug|x86.Build.0 = Debug|Win32
+		{B9F0167C-35C0-433F-A3AB-57C5480435C7}.Release|x64.ActiveCfg = Release|x64
+		{B9F0167C-35C0-433F-A3AB-57C5480435C7}.Release|x64.Build.0 = Release|x64
+		{B9F0167C-35C0-433F-A3AB-57C5480435C7}.Release|x86.ActiveCfg = Release|Win32
+		{B9F0167C-35C0-433F-A3AB-57C5480435C7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
