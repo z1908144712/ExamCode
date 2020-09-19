@@ -3,7 +3,7 @@
 
 using namespace std;
 
-//ÀÁººÄ£Ê½
+//ï¿½ï¿½ï¿½ï¿½Ä£Ê½
 class CSingleton {
 private:
 	CSingleton();
@@ -24,7 +24,7 @@ public:
 	static CSingleton *instance;
 };
 
-//¶öººÄ£Ê½
+//ï¿½ï¿½ï¿½ï¿½Ä£Ê½
 class CSingleton1 {
 private:
 	CSingleton1();

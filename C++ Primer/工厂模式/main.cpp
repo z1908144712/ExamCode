@@ -2,38 +2,38 @@
 
 using namespace std;
 
-//»ùÀàĞ¬×Ó
+//ï¿½ï¿½ï¿½ï¿½Ğ¬ï¿½ï¿½
 class Shoes {
 public:
 	virtual void show() = 0;
 	virtual ~Shoes(){};
 };
 
-//ÄÍ¿ËĞ¬×Ó
+//ï¿½Í¿ï¿½Ğ¬ï¿½ï¿½
 class NikeShoes : public Shoes {
 public:
 	void show () {
-		cout << "ÎÒÊÇÄÍ¿ËÇòĞ¬£¬ÎÒµÄ¹ã¸æÓï£ºJust do it" << endl;
+		cout << "ï¿½ï¿½ï¿½ï¿½ï¿½Í¿ï¿½ï¿½ï¿½Ğ¬ï¿½ï¿½ï¿½ÒµÄ¹ï¿½ï¿½ï¿½ï£ºJust do it" << endl;
 	}
 };
 
-//»ùÀàÒÂ·ş
+//ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½
 class Clothe {
 public:
 	virtual void show() = 0;
 	virtual ~Clothe(){};
 };
 
-//ÓÅÒÂ¿âÒÂ·ş
+//ï¿½ï¿½ï¿½Â¿ï¿½ï¿½Â·ï¿½
 class UniqloClothe : public Clothe {
 public:
 	void show() {
-		std::cout << "ÎÒÊÇÓÅÒÂ¿âÒÂ·ş£¬ÎÒµÄ¹ã¸æÓï£ºI am Uniqlo" << std::endl;	
+		std::cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¿ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ÒµÄ¹ï¿½ï¿½ï¿½ï£ºI am Uniqlo" << std::endl;	
 	}
 };
 
-// ³éÏóÄ£°å¹¤³§Àà
-// Ä£°å²ÎÊı£ºAbstractProduct_t ²úÆ·³éÏóÀà
+// ï¿½ï¿½ï¿½ï¿½Ä£ï¿½å¹¤ï¿½ï¿½ï¿½ï¿½
+// Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½AbstractProduct_t ï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 template <class AbstractProduct_t>
 class AbstractFactory {
 public:
@@ -42,8 +42,8 @@ public:
 	
 };
 
-// ¾ßÌåÄ£°å¹¤³§Àà
-// Ä£°å²ÎÊı£ºAbstractProduct_t ²úÆ·³éÏóÀà£¬ConcreteProduct_t ²úÆ·¾ßÌåÀà
+// ï¿½ï¿½ï¿½ï¿½Ä£ï¿½å¹¤ï¿½ï¿½ï¿½ï¿½
+// Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½AbstractProduct_t ï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½à£¬ConcreteProduct_t ï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 template <class AbstractProduct_t, class ConcreteProduct_t>
 class ConcreteProdyct : public AbstractFactory<AbstractProduct_t> {
 public:
@@ -53,18 +53,18 @@ public:
 };
 
 int main() {
-	// ¹¹ÔìÄÍ¿ËĞ¬µÄ¹¤³§¶ÔÏó
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Í¿ï¿½Ğ¬ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	ConcreteProdyct<Shoes, NikeShoes> concrete;
-	// ´´½¨ÄÍ¿ËĞ¬¶ÔÏó
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Í¿ï¿½Ğ¬ï¿½ï¿½ï¿½ï¿½
 	Shoes *n_shoes = concrete.CreateProduct();
-	// ´òÓ¡ÄÍ¿ËĞ¬¹ã¸æÓï
+	// ï¿½ï¿½Ó¡ï¿½Í¿ï¿½Ğ¬ï¿½ï¿½ï¿½ï¿½ï¿½
 	n_shoes->show();
 
-	// ¹¹ÔìÓÅÒÂ¿âÒÂ·şµÄ¹¤³§¶ÔÏó
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¿ï¿½ï¿½Â·ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	ConcreteProdyct<Clothe, UniqloClothe> concrete_prodyct;
-	// ´´½¨ÓÅÒÂ¿âÒÂ·ş¶ÔÏó
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¿ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½
 	Clothe * u_clothe = concrete_prodyct.CreateProduct();
-	// ´òÓ¡ÓÅÒÂ¿â¹ã¸æÓï
+	// ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½Â¿ï¿½ï¿½ï¿½ï¿½ï¿½
 	u_clothe->show();
 	return 0;
 }

@@ -281,6 +281,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1109. 航班预订统计", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1312. 让字符串成为回文串的最少插入次数", "1312. 让字符串成为回文串的最少插入次数\1312. 让字符串成为回文串的最少插入次数.vcxproj", "{14163C0E-0278-40AE-9778-F6A3E58796CD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "470. 用 Rand7() 实现 Rand10()", "470. 用 Rand7() 实现 Rand10()\470. 用 Rand7() 实现 Rand10().vcxproj", "{11288094-D10C-4FE9-A69E-C9E649F6F375}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1401,6 +1403,14 @@ Global
 		{14163C0E-0278-40AE-9778-F6A3E58796CD}.Release|x64.Build.0 = Release|x64
 		{14163C0E-0278-40AE-9778-F6A3E58796CD}.Release|x86.ActiveCfg = Release|Win32
 		{14163C0E-0278-40AE-9778-F6A3E58796CD}.Release|x86.Build.0 = Release|Win32
+		{11288094-D10C-4FE9-A69E-C9E649F6F375}.Debug|x64.ActiveCfg = Debug|x64
+		{11288094-D10C-4FE9-A69E-C9E649F6F375}.Debug|x64.Build.0 = Debug|x64
+		{11288094-D10C-4FE9-A69E-C9E649F6F375}.Debug|x86.ActiveCfg = Debug|Win32
+		{11288094-D10C-4FE9-A69E-C9E649F6F375}.Debug|x86.Build.0 = Debug|Win32
+		{11288094-D10C-4FE9-A69E-C9E649F6F375}.Release|x64.ActiveCfg = Release|x64
+		{11288094-D10C-4FE9-A69E-C9E649F6F375}.Release|x64.Build.0 = Release|x64
+		{11288094-D10C-4FE9-A69E-C9E649F6F375}.Release|x86.ActiveCfg = Release|Win32
+		{11288094-D10C-4FE9-A69E-C9E649F6F375}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

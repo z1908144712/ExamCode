@@ -3,6 +3,8 @@
 #include <stack>
 using namespace std;
 
+#define ADD(a, b) (a)*(b)
+
 class A {
 private:
 	static int a;
@@ -32,10 +34,11 @@ int main() {
 	a1.a = 20;
 	a1.func();
 	cout << A::a << endl;*/
-	shared_ptr<int> p1(new int(3));
-	cout << p1.use_count() << endl;
-	stack<shared_ptr<int>> st;
-	st.push(p1);
-	cout << p1.use_count() << endl;
+	// shared_ptr<int> p1(new int(3));
+	// cout << p1.use_count() << endl;
+	// stack<shared_ptr<int>> st;
+	// st.push(p1);
+	// cout << p1.use_count() << endl;
+	cout << ADD(1 + 2, 3) << endl;
 	return 0;
 }
