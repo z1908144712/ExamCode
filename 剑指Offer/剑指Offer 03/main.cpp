@@ -19,9 +19,7 @@ public:
                 if (nums[i] == nums[nums[i]]) {
                     return nums[i];
                 }
-                int tmp = nums[i];
-                nums[i] = nums[tmp];
-                nums[tmp] = tmp;
+                swap(nums[i], nums[nums[i]]);
             }
         }
         return -1;

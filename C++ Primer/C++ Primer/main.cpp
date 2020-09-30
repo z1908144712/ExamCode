@@ -3,7 +3,7 @@
 #include <stack>
 using namespace std;
 
-#define ADD(a, b) (a)*(b)
+#define ADD(a, b) ((a)*(b))
 
 class A {
 private:
@@ -13,6 +13,8 @@ public:
 		cout << this->a << endl;
 	}
 };
+
+
 
 int A::a = 10;
 
