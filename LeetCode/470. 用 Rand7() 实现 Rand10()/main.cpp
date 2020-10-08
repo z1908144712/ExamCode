@@ -19,7 +19,7 @@ public:
         while (b > 5) {
             b = rand7();
         }
-        return (a%4 == 0 ? 0:5) + b;
+        return (a/4 == 0 ? 0:5) + b;
     }
 };
 
