@@ -1,23 +1,20 @@
 #include <iostream>
-#include <map>
+#include <vector>
 using namespace std;
 
 class Solution {
 public:
-    map<int, int> mp;
     int fib(int n) {
-        if (n < 2) {
-            return n;
+        vector<int> fb(n + 1);
+        int mod = 1000000007;
+        fb[0] = 0;
+        if (n > 0) {
+            fb[1] = 1;
+            for (int i = 2; i <= n; i++) {
+                fb[i] = (fb[i - 1] + fb[i - 2]) % mod;
+            }
         }
-        if (mp.count(n)) {
-            return mp[n];
-        }
-        int tmp = fib(n - 1) + fib(n - 2);
-        if (tmp >= 1000000007) {
-            tmp %= 1000000007;
-        }
-        mp[n] = tmp;
-        return tmp;
+        return fb[n];
     }
 };
 

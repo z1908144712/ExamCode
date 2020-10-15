@@ -6,31 +6,16 @@ using namespace std;
 class Solution {
 public:
     bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
-        if (pushed.size() == 0 || popped.size() == 0) {
-            return pushed.size() == popped.size();
-        }
         stack<int> st;
-        int pushedi = 0, poppedi = 0;
-        while (poppedi < popped.size()) {
-            if (st.empty()) {
-                if (pushedi < pushed.size()) {
-                    st.push(pushed[pushedi++]);
-                } else {
-                    return false;
-                }
-            }
-            if (st.top() == popped[poppedi]) {
-                poppedi++;
+        int i = 0;
+        for (auto& num : pushed) {
+            st.push(num);
+            while (!st.empty() && st.top() == popped[i]) {
+                i++;
                 st.pop();
-            } else {
-                if (pushedi < pushed.size()) {
-                    st.push(pushed[pushedi++]);
-                } else {
-                    return false;
-                }
             }
         }
-        return true;
+        return st.empty();
     }
 };
 

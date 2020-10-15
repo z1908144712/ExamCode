@@ -4,10 +4,10 @@
 using namespace std;
 
 void quick_sort(vector<int> &arr, int left, int right) {
-	int l = left, r = right;
 	if (left >= right) {
 		return;
 	}
+	int l = left, r = right;
 	int tmp = arr[left];
 	while (left < right) {
 		while (left < right && arr[right] > tmp)

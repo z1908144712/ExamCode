@@ -293,6 +293,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "921. 使括号有效的最�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1541. 平衡括号字符串的最少插入次数", "1541. 平衡括号字符串的最少插入次数\1541. 平衡括号字符串的最少插入次数.vcxproj", "{E695C1B0-CBFE-4CD9-955A-F90914A5C6B1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "343. 整数拆分", "343. 整数拆分\343. 整数拆分.vcxproj", "{34411A55-EC84-4C48-877F-D8E819CCA540}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "410. 分割数组的最大值", "410. 分割数组的最大值\410. 分割数组的最大值.vcxproj", "{534937B1-E26B-41CC-878E-7195CE7F7BF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1461,6 +1465,22 @@ Global
 		{E695C1B0-CBFE-4CD9-955A-F90914A5C6B1}.Release|x64.Build.0 = Release|x64
 		{E695C1B0-CBFE-4CD9-955A-F90914A5C6B1}.Release|x86.ActiveCfg = Release|Win32
 		{E695C1B0-CBFE-4CD9-955A-F90914A5C6B1}.Release|x86.Build.0 = Release|Win32
+		{34411A55-EC84-4C48-877F-D8E819CCA540}.Debug|x64.ActiveCfg = Debug|x64
+		{34411A55-EC84-4C48-877F-D8E819CCA540}.Debug|x64.Build.0 = Debug|x64
+		{34411A55-EC84-4C48-877F-D8E819CCA540}.Debug|x86.ActiveCfg = Debug|Win32
+		{34411A55-EC84-4C48-877F-D8E819CCA540}.Debug|x86.Build.0 = Debug|Win32
+		{34411A55-EC84-4C48-877F-D8E819CCA540}.Release|x64.ActiveCfg = Release|x64
+		{34411A55-EC84-4C48-877F-D8E819CCA540}.Release|x64.Build.0 = Release|x64
+		{34411A55-EC84-4C48-877F-D8E819CCA540}.Release|x86.ActiveCfg = Release|Win32
+		{34411A55-EC84-4C48-877F-D8E819CCA540}.Release|x86.Build.0 = Release|Win32
+		{534937B1-E26B-41CC-878E-7195CE7F7BF1}.Debug|x64.ActiveCfg = Debug|x64
+		{534937B1-E26B-41CC-878E-7195CE7F7BF1}.Debug|x64.Build.0 = Debug|x64
+		{534937B1-E26B-41CC-878E-7195CE7F7BF1}.Debug|x86.ActiveCfg = Debug|Win32
+		{534937B1-E26B-41CC-878E-7195CE7F7BF1}.Debug|x86.Build.0 = Debug|Win32
+		{534937B1-E26B-41CC-878E-7195CE7F7BF1}.Release|x64.ActiveCfg = Release|x64
+		{534937B1-E26B-41CC-878E-7195CE7F7BF1}.Release|x64.Build.0 = Release|x64
+		{534937B1-E26B-41CC-878E-7195CE7F7BF1}.Release|x86.ActiveCfg = Release|Win32
+		{534937B1-E26B-41CC-878E-7195CE7F7BF1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

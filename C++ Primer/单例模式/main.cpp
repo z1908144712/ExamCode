@@ -28,8 +28,9 @@ public:
 class CSingleton1 {
 private:
 	CSingleton1(){};
-	CSingleton1(CSingleton1 &c_singleton);
-	CSingleton1& operator=(const CSingleton1 &c_singleton);
+	CSingleton1(CSingleton1 &c_singleton){};
+	CSingleton1& operator=(const CSingleton1 &c_singleton){};
+	~CSingleton1(){};
 public:
 	static CSingleton1 &getInstance() {
 		static CSingleton1 instance;
@@ -38,7 +39,7 @@ public:
 };
 
 int main() {
-	CSingleton* instance1 = CSingleton::getInstance();
+	//CSingleton* instance1 = CSingleton::getInstance();
 	CSingleton1& instance2 = CSingleton1::getInstance();
 	return 0;
 }
