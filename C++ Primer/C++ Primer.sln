@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "矩阵连乘", "矩阵连�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KMP", "KMP\KMP.vcxproj", "{36A4336C-1446-4A15-A252-EAE5C350F26D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dfs", "dfs\dfs.vcxproj", "{AF6BC791-1D0D-4C43-A46F-22D483CB43DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{36A4336C-1446-4A15-A252-EAE5C350F26D}.Release|x64.Build.0 = Release|x64
 		{36A4336C-1446-4A15-A252-EAE5C350F26D}.Release|x86.ActiveCfg = Release|Win32
 		{36A4336C-1446-4A15-A252-EAE5C350F26D}.Release|x86.Build.0 = Release|Win32
+		{AF6BC791-1D0D-4C43-A46F-22D483CB43DC}.Debug|x64.ActiveCfg = Debug|x64
+		{AF6BC791-1D0D-4C43-A46F-22D483CB43DC}.Debug|x64.Build.0 = Debug|x64
+		{AF6BC791-1D0D-4C43-A46F-22D483CB43DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{AF6BC791-1D0D-4C43-A46F-22D483CB43DC}.Debug|x86.Build.0 = Debug|Win32
+		{AF6BC791-1D0D-4C43-A46F-22D483CB43DC}.Release|x64.ActiveCfg = Release|x64
+		{AF6BC791-1D0D-4C43-A46F-22D483CB43DC}.Release|x64.Build.0 = Release|x64
+		{AF6BC791-1D0D-4C43-A46F-22D483CB43DC}.Release|x86.ActiveCfg = Release|Win32
+		{AF6BC791-1D0D-4C43-A46F-22D483CB43DC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

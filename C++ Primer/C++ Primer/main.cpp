@@ -14,6 +14,15 @@ public:
 	}
 };
 
+class B {
+	//virtual B() {};
+};
+
+class C {
+	char c;
+	virtual void func(){};
+};
+
 
 
 int A::a = 10;
@@ -41,6 +50,10 @@ int main() {
 	// stack<shared_ptr<int>> st;
 	// st.push(p1);
 	// cout << p1.use_count() << endl;
-	cout << ADD(1 + 2, 3) << endl;
+	//cout << ADD(1 + 2, 3) << endl;
+	B b;
+	C c;
+	cout << sizeof(B) << endl;
+	cout << sizeof(C) << endl;
 	return 0;
 }
