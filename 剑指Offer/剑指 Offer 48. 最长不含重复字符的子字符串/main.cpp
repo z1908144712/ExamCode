@@ -10,20 +10,17 @@ public:
         int i = -1;
         for (int j = 0; j < s.size(); j++) {
             if (mp.count(s[j])) {
-                i = mp[s[j]];
-            } else {
-                mp[s[j]] = j;
+                i = max(mp[s[j]], i);
             }
-            if (maxCnt < j - i) {
-                maxCnt = j - i;
-            }
+            mp[s[j]] = j;
+            maxCnt = max(maxCnt,  j - i);
         }
         return maxCnt;
     }
 };
 
 int main() {
-    string s = " ";
+    string s = "baab";
     cout << Solution().lengthOfLongestSubstring(s) << endl;
     return 0;
 }

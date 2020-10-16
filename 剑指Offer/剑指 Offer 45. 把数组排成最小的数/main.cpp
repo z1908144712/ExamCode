@@ -1,30 +1,27 @@
 #include <iostream>
 #include <vector>
-#include <queue>
 #include <string>
+#include <algorithm>
 using namespace std;
 
 class Solution {
 public:
     string minNumber(vector<int>& nums) {
-        priority_queue<string, vector<string>, cmp<string>> pr;
+        vector<string> strnums;
         for (auto &num : nums) {
-            pr.push(to_string(num));
+            strnums.push_back(to_string(num));
         }
+        sort(strnums.begin(), strnums.end(), mycmp);
         string r = "";
-        while (!pr.empty()) {
-            r += pr.top();
-            pr.pop();
+        for (auto& s: strnums) {
+            r += s;
         }
         return r;
     }
 
-    template <typename T>
-    struct cmp{
-        bool operator() (const T& s1, const T& s2) {
-            return (s1 + s2) > (s2 + s1);
-        }
-    };
+    static bool mycmp(const string& s1, const string& s2) {
+        return (s1 + s2) > (s2 + s1);
+    }
 };
 
 int main() {
