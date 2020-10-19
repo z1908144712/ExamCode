@@ -8,7 +8,16 @@ public:
         if (n == s.size()) {
             return s;
         }
-        return s.substr(n) + s.substr(0, n);
+        for (int i = 0; i < (n >> 1); i++) {
+            swap(s[i], s[n - i - 1]);
+        }
+        for (int i = n; i < ((s.size() + n) >> 1); i++) {
+            swap(s[i], s[s.size() - i + n - 1]);
+        }
+        for (int i = 0; i < (s.size() >> 1); i++) {
+            swap(s[i], s[s.size() - i - 1]);
+        }
+        return s;
     }
 };
 
