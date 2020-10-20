@@ -297,6 +297,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "343. 整数拆分", "343. �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "410. 分割数组的最大值", "410. 分割数组的最大值\410. 分割数组的最大值.vcxproj", "{534937B1-E26B-41CC-878E-7195CE7F7BF1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "496. 下一个更大元素 I", "496. 下一个更大元素 I\496. 下一个更大元素 I.vcxproj", "{347C9ADE-79EB-44E7-9C6F-1D4CE8765D0F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "503. 下一个更大元素 II", "503. 下一个更大元素 II\503. 下一个更大元素 II.vcxproj", "{BDB4C613-B8C1-4F65-8665-2699A3FC30AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1481,6 +1485,22 @@ Global
 		{534937B1-E26B-41CC-878E-7195CE7F7BF1}.Release|x64.Build.0 = Release|x64
 		{534937B1-E26B-41CC-878E-7195CE7F7BF1}.Release|x86.ActiveCfg = Release|Win32
 		{534937B1-E26B-41CC-878E-7195CE7F7BF1}.Release|x86.Build.0 = Release|Win32
+		{347C9ADE-79EB-44E7-9C6F-1D4CE8765D0F}.Debug|x64.ActiveCfg = Debug|x64
+		{347C9ADE-79EB-44E7-9C6F-1D4CE8765D0F}.Debug|x64.Build.0 = Debug|x64
+		{347C9ADE-79EB-44E7-9C6F-1D4CE8765D0F}.Debug|x86.ActiveCfg = Debug|Win32
+		{347C9ADE-79EB-44E7-9C6F-1D4CE8765D0F}.Debug|x86.Build.0 = Debug|Win32
+		{347C9ADE-79EB-44E7-9C6F-1D4CE8765D0F}.Release|x64.ActiveCfg = Release|x64
+		{347C9ADE-79EB-44E7-9C6F-1D4CE8765D0F}.Release|x64.Build.0 = Release|x64
+		{347C9ADE-79EB-44E7-9C6F-1D4CE8765D0F}.Release|x86.ActiveCfg = Release|Win32
+		{347C9ADE-79EB-44E7-9C6F-1D4CE8765D0F}.Release|x86.Build.0 = Release|Win32
+		{BDB4C613-B8C1-4F65-8665-2699A3FC30AB}.Debug|x64.ActiveCfg = Debug|x64
+		{BDB4C613-B8C1-4F65-8665-2699A3FC30AB}.Debug|x64.Build.0 = Debug|x64
+		{BDB4C613-B8C1-4F65-8665-2699A3FC30AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{BDB4C613-B8C1-4F65-8665-2699A3FC30AB}.Debug|x86.Build.0 = Debug|Win32
+		{BDB4C613-B8C1-4F65-8665-2699A3FC30AB}.Release|x64.ActiveCfg = Release|x64
+		{BDB4C613-B8C1-4F65-8665-2699A3FC30AB}.Release|x64.Build.0 = Release|x64
+		{BDB4C613-B8C1-4F65-8665-2699A3FC30AB}.Release|x86.ActiveCfg = Release|Win32
+		{BDB4C613-B8C1-4F65-8665-2699A3FC30AB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
